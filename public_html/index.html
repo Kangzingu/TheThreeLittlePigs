@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>프로젝트 연습 1</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body onload="main()">
+    <canvas id="map" width="1200" height="800" style="position: absolute;z-index:0"></canvas>
+        <canvas id="hud" width="1200" height="800" style="position: absolute;z-index:1"></canvas>
+        <script src="webgl-utils.js"></script>
+        <script src="webgl-debug.js"></script>
+        <script src="cuon-utils.js"></script>
+        <script src="cuon-matrix.js"></script>
+        <script src="OBJLoader.js"></script>
+        <script src="OBJLoader2.js"></script>
+        <script src="projectwebgl.js"></script>
+        <p id="round" style="position:absolute;top:0%;left:60%;font-size:15pt;" > 스테이지: 1 단계 </p>
+        <p style="position:absolute;top:0%;left:70%;font-size:15pt;"> 모드 변경 - m</p>
+        <p style="position:absolute;top:4%;left:70%;font-size:15pt;"> 게임 시작 - v</p>
+        <p style="position:absolute;top:8%;left:70%;font-size:15pt;"> 블럭 생성/삭제 - p</p>
+        <p id="block" style="position:absolute;top:12%;left:70%;font-size:15pt;" > 블럭개수: 0/ 9 </p>
+        <p id="durability" style="position:absolute;top:16%;left:70%;font-size:15pt;" > 내구도 목표: 0/ 3 </p>
+        <p id="mode" style="position:absolute;top:20%;left:70%;font-size:15pt;" > 모드: 생성 </p>
+        <div>프로젝트 연습 1</div>
+    </body>
+</html>
